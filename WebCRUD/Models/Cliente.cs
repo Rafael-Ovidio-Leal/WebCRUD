@@ -18,9 +18,9 @@ namespace WebCRUD.Models
         [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
-        [Column("Status Ativo")]
-        [Display(Name = "Status")]
-        public string Status { get; set; }
+        [Column("Status")]
+        [Display(Name = "Status Ativo")]
+        public bool Status { get; set; }
 
         [Column("Dt_cad")]
         [Display(Name = "Data de Cadastramento")]
